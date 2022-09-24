@@ -26,7 +26,7 @@ I'd like to make it flexible to follow new versions through refactoring.
 $ git clone https://github.com/sataketatsuya/docker-nginx-modsecurity.git
 $ cd docker-nginx-modsecurity
 $ docker build -t docker-nginx-modsecurity `pwd`
-$ docker run --it --rm -p 80:80 docker-nginx-modsecurity
+$ docker run -it --rm -p 80:80 docker-nginx-modsecurity
 ```
 
 Nginx access log and ModSecurity log, ModSecurity audit logs are logged to stdout(/dev/stdout).
